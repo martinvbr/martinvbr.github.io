@@ -381,7 +381,7 @@ ul li a {
     main {
         padding-left: 5em;
         padding-top: 4em;
-        background: #EFEFEF url('../img/bg.svg') no-repeat bottom right;
+        background: #EFEFEF url('bg.svg') no-repeat bottom right;
         background-size: 70%;
         border-radius: 1px solid #e600ff;
     }

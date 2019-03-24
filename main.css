@@ -388,7 +388,7 @@ ul li a {
 
     figure div {
         border-radius: 50%;
-        background: url('../img/myself.jpg');
+        background: url('myself.jpg');
         background-size: contain;
         width: 60px;
         height: 60px;

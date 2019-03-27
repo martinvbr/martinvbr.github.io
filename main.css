@@ -24,23 +24,19 @@ body {
 }
 
 body:before {
-    content: '';
     position: absolute;
     top: 0;
     left: 0;
     border-top: 100vh solid transparent;
     border-left: 100vh solid #EFEFEF;
-    opacity: 0.1;
 }
 
 body:after {
-    content: '';
     position: absolute;
     bottom: 0;
     right: 0;
     border-top: 100vh solid transparent;
     border-right: 100vh solid #EFEFEF;
-    opacity: 0.1;
 }
 
 main {
@@ -107,7 +103,6 @@ aside p {
 
 img {
     width: 40px;
-    cursor: pointer;
 }
 
 figure {
@@ -326,14 +321,14 @@ ul li a {
 ////////////////////////////////////////////////////////*/
 
 .icons {
-    display: inline-flex;
+    display: inline-block;
     list-style-type: none;
 }
 
 .icons li a {
     position: absolute;
     bottom: 40px;
-    left: 93%;
+    right: 10%;
     text-decoration: none;
     padding: 15px;
     color: #fff;
@@ -347,7 +342,7 @@ ul li a {
 .icons2 li a {
     position: absolute;
     bottom: 40px;
-    left: 91%;
+    right: 5%;
     text-decoration: none;
     padding: 15px;
     color: #fff;
@@ -395,6 +390,34 @@ ul li a {
         margin: 2em auto 1em auto;
     }
 
+    .modal-content2 div {
+        border-radius: 50%;
+        background: url('myself.jpg');
+        background-size: contain;
+        width: 70px;
+        height: 70px;
+        margin: 2em auto 1em auto;
+    }
+
+    .titlebox2 {
+        padding-top: -10px;
+         font-family: 'Merriweather', serif;
+         text-align: center;
+         font-size: 25px;
+    }
+
+    .parabox2 {
+        padding-top: -10px;
+        font-family: 'Merriweather', serif;
+        text-align: center;
+        font-size: 15px;
+    }
+    .lobby {
+        text-align: center;
+        font-size: 15px;
+        color: blue;
+    }
+
     figcaption {
         text-align: center;
         color: #000;
@@ -423,6 +446,7 @@ ul li a {
     }
 
     h1 {
+        font-family: 'Merriweather', serif;
         font-size: 3em;
         margin-top: 2em;
     }
@@ -430,7 +454,33 @@ ul li a {
     p {
         font-size: 1.5em;
     }
+    .icons {
+    display: inline-flex;
+    list-style-type: none;
+    }
 
+    .icons li a {
+    position: absolute;
+    bottom: 33px;
+    left: 93%;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    }
+
+    .icons2 {
+    display: inline-flex;
+    list-style-type: none;   
+    }
+
+    .icons2 li a {
+    position: absolute;
+    bottom: 33px;
+    left: 91%;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    }
 }
 /*////////////////////////////////////////////////////////
                     Animation loader

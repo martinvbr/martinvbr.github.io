@@ -19,7 +19,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a00fb', endColorstr='#e600ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    animation: animate2 15s linear;
+   
 
 }
 
